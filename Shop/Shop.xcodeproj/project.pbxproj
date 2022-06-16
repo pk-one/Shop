@@ -32,7 +32,6 @@
 		A0318F1F285A4C8E0025D7EB /* UISegmentedControl + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0318F1E285A4C8E0025D7EB /* UISegmentedControl + Extension.swift */; };
 		A0318F22285A5F6A0025D7EB /* ProfileResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0318F21285A5F6A0025D7EB /* ProfileResult.swift */; };
 		A0357AC4284FD63B00362374 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0357AC3284FD63B00362374 /* AppDelegate.swift */; };
-		A0357AC6284FD63B00362374 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0357AC5284FD63B00362374 /* SceneDelegate.swift */; };
 		A0357AC8284FD63B00362374 /* AuthorizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0357AC7284FD63B00362374 /* AuthorizationViewController.swift */; };
 		A0357ACD284FD63D00362374 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0357ACC284FD63D00362374 /* Assets.xcassets */; };
 		A0357AD0284FD63D00362374 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0357ACE284FD63D00362374 /* LaunchScreen.storyboard */; };
@@ -86,7 +85,6 @@
 		A0318F21285A5F6A0025D7EB /* ProfileResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileResult.swift; sourceTree = "<group>"; };
 		A0357AC0284FD63B00362374 /* Shop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0357AC3284FD63B00362374 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A0357AC5284FD63B00362374 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A0357AC7284FD63B00362374 /* AuthorizationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationViewController.swift; sourceTree = "<group>"; };
 		A0357ACC284FD63D00362374 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0357ACF284FD63D00362374 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -306,7 +304,6 @@
 			isa = PBXGroup;
 			children = (
 				A0357AC3284FD63B00362374 /* AppDelegate.swift */,
-				A0357AC5284FD63B00362374 /* SceneDelegate.swift */,
 				A0357AD1284FD63D00362374 /* Info.plist */,
 			);
 			path = Environments;
@@ -517,7 +514,6 @@
 				A085BD992858DF26008E84C5 /* User.swift in Sources */,
 				A0318F142859F2A50025D7EB /* Logout.swift in Sources */,
 				A085BDA82858E941008E84C5 /* UILabel + Extension.swift in Sources */,
-				A0357AC6284FD63B00362374 /* SceneDelegate.swift in Sources */,
 				A06FBA6E2858DC4B00AD46C9 /* AbstractRequestFactory.swift in Sources */,
 				A085BDB02858EB85008E84C5 /* UIColor + Extension.swift in Sources */,
 				A02CEED0285A63F40074AA8C /* ChangeProfile.swift in Sources */,

@@ -16,6 +16,6 @@ extension AuthorizationRouter where Self: UIViewController {
     func openAuhorizationScreen() {
         let vc = AuthorizationViewController()
         vc.viewModel = AuthorizationViewModel(requestFactory: RequestFactory().makeAuthRequestFatory())
-        SceneDelegate.sce
+        AppDelegate.mainWindow.rootViewController = UINavigationController(rootViewController: vc)
     }
 }
