@@ -1,0 +1,19 @@
+/* 
+  ChangeProfile.strings
+  Shop
+
+  Created by Pavel Olegovich on 15.06.2022.
+  
+*/
+
+"username" = "Имя";
+"password" = "Пароль";
+"email" = "Адрес электронной почты";
+"gender" = "Пол";
+"cardNumber" = "Карта";
+"bio" = "О себе";
+"save" = "Сохранить";
+"error" = "Ошибка";
+"emptyData" = "Заполните обязательные поля";
+"successChange" = "Данные успешно изменены";
+

@@ -1,0 +1,18 @@
+/* 
+  Registration.strings
+  Shop
+
+  Created by Pavel Olegovich on 14.06.2022.
+  
+*/
+
+"username" = "Имя";
+"password" = "Пароль";
+"email" = "Адрес электронной почты";
+"gender" = "Пол";
+"cardNumber" = "Карта";
+"bio" = "О себе";
+"register" = "Зарегистрироваться";
+"error" = "Ошибка";
+"emptyData" = "Заполните обязательные поля";
+

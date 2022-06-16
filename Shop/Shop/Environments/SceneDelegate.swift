@@ -7,20 +7,17 @@
 
 import UIKit
 
-class SceneDelegate: UIResponder, UIWindowSceneDelegate {
+class SceneDelegate: UIResponder, UIWindowSceneDelegate, SplashScreenRouter {
 
     var window: UIWindow?
-
+    var requestFactory = RequestFactory()
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         
         guard let windowScene = (scene as? UIWindowScene) else { return }
         
         window = UIWindow(windowScene: windowScene)
-    
-        window?.rootViewController = ViewController()
-        window?.makeKeyAndVisible()
-        window?.overrideUserInterfaceStyle = .light
+        openSplashScreen(window: window)
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

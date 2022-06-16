@@ -1,0 +1,11 @@
+/* 
+  Profile.strings
+  Shop
+
+  Created by Pavel Olegovich on 15.06.2022.
+  
+*/
+
+"change" = "Редактировать профиль";
+"logout" = "Выйти";
+"error" = "Ошибка";

@@ -1,0 +1,16 @@
+/* 
+  Authorization.strings
+  Shop
+
+  Created by Pavel Olegovich on 14.06.2022.
+  
+*/
+
+"welcome" = "Добро пожаловать";
+"login" = "Логин";
+"password" = "Пароль";
+"dontHaveAnAccount" =  "Нет аккаунта?";
+"signIn" = "Войти";
+"register" = "Зарегистрируйтесь";
+"error" = "Ошибка";
+"emptyLoginOrPassword" = "Введите логин и/или пароль";
