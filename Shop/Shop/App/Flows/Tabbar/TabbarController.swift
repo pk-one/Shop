@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-final class TabbarController: UITabBarController, ProfileRouter {
+final class TabbarController: UITabBarController, ProfileRouter, HomeRouter {
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,7 +21,7 @@ final class TabbarController: UITabBarController, ProfileRouter {
     
     private func createTabbar() {
         viewControllers = [
-            generateViewController(viewController: HomeViewController(),
+            generateViewController(viewController: openHome(),
                                    title: "Главная",
                                    image: UIImage(systemName: "house.fill")),
             generateViewController(viewController: openProfile(),

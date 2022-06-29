@@ -16,7 +16,7 @@ enum ChangeState {
 protocol ChangeProfileViewModeling: AnyObject {
     var state: PassthroughSubject<ChangeState, Never> { get }
     
-    func requestRegistration(user: Profile)
+    func requestRegistration(user: ProfileResult)
 }
 
 final class ChangeProfileViewModel: ChangeProfileViewModeling {
@@ -29,7 +29,7 @@ final class ChangeProfileViewModel: ChangeProfileViewModeling {
         self.requestFactory = requestFactory
     }
     
-    func requestRegistration(user: Profile) {
+    func requestRegistration(user: ProfileResult) {
         requestFactory.change(for: user) { [weak self] response in
             guard let self = self else { return }
             

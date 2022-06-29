@@ -1,0 +1,14 @@
+/* 
+  Home.strings
+  Shop
+
+  Created by Pavel Olegovich on 29.06.2022.
+  
+*/
+
+"getProductsList" = "Получить список продуктов";
+"getProduct" = "Получить продукт";
+"error" = "Ошибка";
+"successful" = "Успешно";
+"successfulReceiptProductsList" = "Список продуктов получен";
+"successfulReceiptProduct" = "Продукт получен";

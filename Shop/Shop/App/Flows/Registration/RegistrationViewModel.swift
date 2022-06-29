@@ -16,7 +16,7 @@ enum RegistrationState {
 protocol RegistrationViewModeling: AnyObject {
     var state: PassthroughSubject<RegistrationState, Never> { get }
     
-    func requestRegistration(user: Profile)
+    func requestRegistration(user: ProfileResult)
 }
 
 final class RegistrationViewModel: RegistrationViewModeling {
@@ -29,7 +29,7 @@ final class RegistrationViewModel: RegistrationViewModeling {
         self.requestFactory = requestFactory
     }
     
-    func requestRegistration(user: Profile) {
+    func requestRegistration(user: ProfileResult) {
         requestFactory.register(for: user) { [weak self] response in
             guard let self = self else { return }
             
