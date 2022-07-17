@@ -140,7 +140,7 @@ final class RegistrationViewController: UIViewController, AuthorizationRouter {
             return
         }
         
-        let user = Profile(userId: 123, login: username, password: password, email: email, gender: gender, creditCard: cardTextField.text ?? "", bio: bioTextField.text ?? "")
+        let user = ProfileResult(userId: 123, login: username, password: password, email: email, gender: gender, creditCard: cardTextField.text ?? "", bio: bioTextField.text ?? "")
         viewModel.requestRegistration(user: user)
     }
     

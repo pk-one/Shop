@@ -9,7 +9,7 @@ import Foundation
 import Alamofire
 
 protocol RegistrationRequestFactory {
-    func register(for user: Profile, completion: @escaping (AFDataResponse<RegistrationResult>) -> Void)
+    func register(for user: ProfileResult, completion: @escaping (AFDataResponse<RegistrationResult>) -> Void)
 }
 
 final class Registration: AbstractRequestFactory {
@@ -27,7 +27,7 @@ final class Registration: AbstractRequestFactory {
 }
 
 extension Registration: RegistrationRequestFactory {
-    func register(for user: Profile, completion: @escaping (AFDataResponse<RegistrationResult>) -> Void) {
+    func register(for user: ProfileResult, completion: @escaping (AFDataResponse<RegistrationResult>) -> Void) {
         
         let requestModel = UserRegistration(baseUrl: baseUrl, profile: user)
         
@@ -41,7 +41,7 @@ extension Registration {
         let method: HTTPMethod = .get
         let path: String = "registerUser.json"
         
-        let profile: Profile
+        let profile: ProfileResult
         
         var parameters: Parameters? {
             return [

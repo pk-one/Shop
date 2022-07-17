@@ -9,7 +9,7 @@ import Foundation
 import Alamofire
 
 protocol ChangeProfileRequestFactory {
-    func change(for user: Profile, completion: @escaping (AFDataResponse<ChangeResult>) -> Void)
+    func change(for user: ProfileResult, completion: @escaping (AFDataResponse<ChangeResult>) -> Void)
 }
 
 final class ChangeProfile: AbstractRequestFactory {
@@ -27,7 +27,7 @@ final class ChangeProfile: AbstractRequestFactory {
 }
 
 extension ChangeProfile: ChangeProfileRequestFactory {
-    func change(for user: Profile, completion: @escaping (AFDataResponse<ChangeResult>) -> Void) {
+    func change(for user: ProfileResult, completion: @escaping (AFDataResponse<ChangeResult>) -> Void) {
         
         let requestModel = UserChange(baseUrl: baseUrl, profile: user)
         
@@ -41,7 +41,7 @@ extension ChangeProfile {
         let method: HTTPMethod = .get
         let path: String = "changeUserData.json"
         
-        let profile: Profile
+        let profile: ProfileResult
         
         var parameters: Parameters? {
             return [

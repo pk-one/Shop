@@ -142,7 +142,7 @@ final class ChangeProfileViewController: UIViewController {
             return
         }
         
-        let user = Profile(userId: 123,
+        let user = ProfileResult(userId: 123,
                            login: username,
                            password: password,
                            email: email,
