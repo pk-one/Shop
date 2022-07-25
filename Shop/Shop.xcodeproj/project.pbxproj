@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A01789AC288EA301008C0D6C /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01789AB288EA301008C0D6C /* ProductTableViewCell.swift */; };
 		A02CEED0285A63F40074AA8C /* ChangeProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02CEECF285A63F40074AA8C /* ChangeProfile.swift */; };
 		A02CEED2285A64420074AA8C /* ChangeResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02CEED1285A64420074AA8C /* ChangeResult.swift */; };
 		A02CEED5285A65160074AA8C /* ChangeProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02CEED4285A65160074AA8C /* ChangeProfileViewController.swift */; };
@@ -79,6 +80,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A01789AB288EA301008C0D6C /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
 		A02CEECF285A63F40074AA8C /* ChangeProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeProfile.swift; sourceTree = "<group>"; };
 		A02CEED1285A64420074AA8C /* ChangeResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeResult.swift; sourceTree = "<group>"; };
 		A02CEED4285A65160074AA8C /* ChangeProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeProfileViewController.swift; sourceTree = "<group>"; };
@@ -161,6 +163,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A01789AA288EA2F7008C0D6C /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A01789AB288EA301008C0D6C /* ProductTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		A02CEECE285A63DC0074AA8C /* Change */ = {
 			isa = PBXGroup;
 			children = (
@@ -201,6 +211,7 @@
 		A0318F032859EA870025D7EB /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				A01789AA288EA2F7008C0D6C /* Cell */,
 				A0318F052859EAB60025D7EB /* HomeViewController.swift */,
 				A0909B22286CF690006D9459 /* HomeViewModel.swift */,
 				A0909B24286CF6C0006D9459 /* HomeRouter.swift */,
@@ -614,6 +625,7 @@
 				A06FBA6E2858DC4B00AD46C9 /* AbstractRequestFactory.swift in Sources */,
 				A085BDB02858EB85008E84C5 /* UIColor + Extension.swift in Sources */,
 				A02CEED0285A63F40074AA8C /* ChangeProfile.swift in Sources */,
+				A01789AC288EA301008C0D6C /* ProductTableViewCell.swift in Sources */,
 				A085BDBE2858F8DD008E84C5 /* RegistrationViewController.swift in Sources */,
 				A06FBA6A2858D9C900AD46C9 /* AbstractErrorParser.swift in Sources */,
 				A0318F182859F9100025D7EB /* TabbarRouter.swift in Sources */,
