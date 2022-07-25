@@ -11,16 +11,16 @@ struct GetProductsResults: Codable {
     let pageNumber: Int
     
     struct Product: Codable {
-           let productId: Int
-           let productName: String
-           let price: Int
-
-           enum CodingKeys: String, CodingKey {
-               case productId = "id_product"
-               case productName = "product_name"
-               case price
-           }
-       }
+        let productId: Int
+        let productName: String
+        let price: Int
+        
+        enum CodingKeys: String, CodingKey {
+            case productId = "id_product"
+            case productName = "product_name"
+            case price
+        }
+    }
     
     enum CodingKeys: String, CodingKey {
         case pageNumber = "page_number"
